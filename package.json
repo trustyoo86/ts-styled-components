@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "styled-components": "^4.3.2",
+    "typescript": "^3.5.3"
+  },
+  "name": "ts-styled-components",
+  "description": "typescript styled components generic utils",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc ./src/index.ts --outDir ./dist --sourceMap",
+    "prod": "tsc ./src/index.ts --outDir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trustyoo86/ts-styled-components.git"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "styled-components",
+    "es6",
+    "javascript"
+  ],
+  "author": "kernyoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trustyoo86/ts-styled-components/issues"
+  },
+  "homepage": "https://github.com/trustyoo86/ts-styled-components#readme"
+}
